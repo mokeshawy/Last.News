@@ -2,5 +2,21 @@
 <resources>
     <string name="app_name">Last News</string>
 
+    <!--  string for splash page-->
+    <string name="title_all_rights_reserved"> حقوق الطبع محفوظة © أخر الاخبار</string>
+
+    <!-- string for welcome page-->
     <string name="hello_blank_fragment">مرحبا بك</string>
+    <string name="title_start_page">أبدأ</string>
+    <string name="title_btn_change_language">أختر</string>
+    <string name="title_welcome_page">مرحبا بكم ...</string>
+    <string name="title_to_the_last_news">فى اخر الأخبار</string>
+    <string name="title_select_language">اللغة</string>
+    <string name="title_btn_welcome_page">اذهب الى  الاخبار</string>
+    <string-array name="changeLang">
+        <item>الانجليزية</item>
+        <item>العربية</item>
+    </string-array>
+
+
 </resources>

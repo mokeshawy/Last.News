@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".welcomefragment.WelcomeFragment">
+
+
+        <LinearLayout
+            android:id="@+id/ll_change_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/title_select_language"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <Spinner
+                    android:id="@+id/language_spinner"
+                    android:layout_width="125dp"
+                    android:layout_height="45dp"
+                    android:entries="@array/changeLang"
+                    android:gravity="left"
+                    android:theme="@style/mySpinnerItemStyle" />
+
+                <Button
+                    android:id="@+id/btn_change_language"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_btn_primary"
+                    android:text="@string/title_btn_change_language"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_welcome_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mregular"
+            android:gravity="center"
+            android:text="@string/title_welcome_page"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.274" />
+
+        <TextView
+            android:id="@+id/tv_to_last_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mregular"
+            android:gravity="center"
+            android:text="@string/title_to_the_last_news"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_welcome_to"
+            app:layout_constraintStart_toStartOf="@+id/tv_welcome_to"
+            app:layout_constraintTop_toBottomOf="@+id/tv_welcome_to" />
+
+        <ImageView
+            android:id="@+id/iv_welcome_screen"
+            android:layout_width="257dp"
+            android:layout_height="216dp"
+            android:src="@drawable/ic_vector_splash_news"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_to_last_news"
+            app:layout_constraintVertical_bias="0.187" />
+
+        <Button
+            android:id="@+id/btn_next_course"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_btn_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="@string/title_btn_welcome_page"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_welcome_screen"
+            app:layout_constraintVertical_bias="0.573" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

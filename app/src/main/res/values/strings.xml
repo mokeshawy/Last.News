@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">Last News</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  string for splash page-->
+    <string name="title_all_rights_reserved">Copyright © 2021 LAST NEWS</string>
+
+    <!-- string for welcome page-->
+    <string name="hello_blank_fragment">Hello World</string>
+    <string name="title_start_page">Start</string>
+    <string name="title_btn_change_language">Go</string>
+    <string name="title_welcome_page">Welcome to ...</string>
+    <string name="title_to_the_last_news">The last news</string>
+    <string name="title_select_language">Language</string>
+    <string name="title_btn_welcome_page">Go to the news</string>
+    <string-array name="changeLang">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+
 </resources>

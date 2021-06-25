@@ -8,7 +8,20 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.lastnews.SplashFragment"
+        android:name="com.example.lastnews.splashfragment.SplashFragment"
         android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" />
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.lastnews.welcomefragment.WelcomeFragment"
+        android:label="@string/title_start_page"
+        tools:layout="@layout/fragment_welcome" />
+
 </navigation>
