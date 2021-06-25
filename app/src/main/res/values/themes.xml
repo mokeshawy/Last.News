@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.LastNews" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.News" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/apricot</item>
-        <item name="colorPrimaryDark">@color/apricot</item>
+        <item name="colorPrimary">@color/greenSoft</item>
+        <item name="colorPrimaryDark">@color/greenSoft</item>
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
