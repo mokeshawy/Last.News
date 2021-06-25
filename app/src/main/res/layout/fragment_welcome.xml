@@ -80,6 +80,7 @@
             android:text="@string/title_to_the_last_news"
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="@+id/tv_welcome_to"
+            app:layout_constraintHorizontal_bias="0.46"
             app:layout_constraintStart_toStartOf="@+id/tv_welcome_to"
             app:layout_constraintTop_toBottomOf="@+id/tv_welcome_to" />
 
@@ -87,7 +88,7 @@
             android:id="@+id/iv_welcome_screen"
             android:layout_width="257dp"
             android:layout_height="216dp"
-            android:src="@drawable/ic_vector_splash_news"
+            android:src="@drawable/ic_vector_newspaper"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
